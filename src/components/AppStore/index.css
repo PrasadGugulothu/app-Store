@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head {
+  margin-top: 45px;
+  font-family: Bree Serif;
+  font-size: 40px;
+}
+.search {
+  background-color: transparent;
+  outline: none;
+  height: 30px;
+  border-color: 1px solid white;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.tabs-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.apps-list-container {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
